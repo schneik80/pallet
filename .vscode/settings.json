@@ -1,11 +1,11 @@
 {
 	"python.autoComplete.extraPaths":	[
-		"/Users/schneik/Library/Application Support/Autodesk/Autodesk Fusion 360/API/Python/defs"
+		"C:\\Users\\schneik\\AppData\\Roaming\\Autodesk\\Autodesk Fusion 360\\API\\Python\\defs"
 	],
-	"python.analysis.extraPaths":	["/Users/schneik/Library/Application Support/Autodesk/Autodesk Fusion 360/API/Python/defs"],
-	"python.defaultInterpreterPath": "/Users/schneik/Library/Application Support/Autodesk/webdeploy/pre-production/d1dc0e7ea50d1c993730488079f955844c6dd909/Autodesk Fusion 360.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python",
-	"fusion-360-helper.python.pythonPath": "/Users/schneik/Library/Application Support/Autodesk/webdeploy/production/be40e28da269264a3449d3d3e051d5a0f5f42ad1/Autodesk Fusion 360.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python",
-	"fusion-360-helper.python.extraLibs": [
-		"/Users/schneik/Library/Application Support/Autodesk/Autodesk Fusion 360/API/Python/defs"
+	"python.analysis.extraPaths":	["/Users/schneik/Library/Application Support/Autodesk/Autodesk Fusion 360/API/Python/defs", "C:/Users/schneik/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/Python/defs"],
+	"python.defaultInterpreterPath":	"C:/Users/schneik/AppData/Local/Autodesk/webdeploy/production/ad7281617f9bd8f5795b94fde099c32079296a4e/Python/python.exe",
+	"fusion-360-helper.python.pythonPath":	"C:\\Users\\schneik\\AppData\\Local\\Autodesk\\webdeploy\\production\\b738a7f16475c27414ba957f7f0b2ee5b34e4e6d\\Python\\python.exe",
+	"fusion-360-helper.python.extraLibs":	[
+		"C:\\Users\\schneik\\AppData\\Roaming\\Autodesk\\Autodesk Fusion 360\\API\\Python\\defs"
 	]
 }

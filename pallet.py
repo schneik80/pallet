@@ -17,11 +17,11 @@ class ShowPaletteCommandExecuteHandler(adsk.core.CommandEventHandler):
             # Create and display the palette.
             palette = _ui.palettes.itemById('myPalette')
             if not palette:
-                palette = _ui.palettes.add('myPalette', 'My Palette', 'index.html', True, True, True, 450, 725)
+                palette = _ui.palettes.add('myPalette', 'New Document', 'index.html', True, True, True, 450, 725)
 
                 # Dock the palette to the right side of Fusion window.
                 palette.dockingState = adsk.core.PaletteDockingStates.PaletteDockStateRight
-                palette.setMinimumSize(450,725)
+                palette.setMinimumSize(350,725)
                 palette.setMaximumSize(450,725)
     
                 # Add handler to HTMLEvent of the palette.

@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .navtabs {
   display: flex;
   width: 250px;
@@ -18,6 +19,7 @@ body {
   padding: 10px 20px;
   position: relative;
 }
+
 .navtab {
   margin: 0 5px;
   padding: 5px 20px;
@@ -25,13 +27,16 @@ body {
   color: #333;
   transition: color 0.3s;
 }
+
 .navtab:hover {
   color: #0696d7;
 }
+
 .navtab.active {
   color: #0696d7;
   font-weight: 600;
 }
+
 .underline {
   position: absolute;
   bottom: 0;
@@ -39,12 +44,14 @@ body {
   background: #0696d7;
   transition: left 0.3s ease, width 0.3s ease;
 }
+
 .content {
   display: none;
   padding: 20px 20px 20px;
   max-width: 370px;
   text-align: center;
 }
+
 .content.active {
   display: block;
 }
@@ -68,7 +75,6 @@ display: block;
 width: 96px;
 height: auto;
 }
-
 
 .container:hover {
 background-color: #c2c2c2;
